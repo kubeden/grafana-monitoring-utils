@@ -1,0 +1,19 @@
+{
+    "grafanaUrl": "http://your-grafana-server:3000",
+    "grafanaApiKey": "your-api-key-here",
+    "dashboardUids": [
+        "dashboard-uid-1",
+        "dashboard-uid-2"
+    ],
+    "emailFrom": "reports@yourdomain.com",
+    "emailTo": [
+        "team@yourdomain.com",
+        "manager@yourdomain.com"
+    ],
+    "smtpHost": "smtp.yourdomain.com",
+    "smtpPort": 587,
+    "smtpUser": "your-smtp-user",
+    "smtpPassword": "your-smtp-password",
+    "scheduleTime": "08:00",
+    "timeRange": "24h"
+}

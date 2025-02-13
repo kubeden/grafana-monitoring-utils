@@ -1,9 +1,10 @@
-# Grafana monitoring endpoints
+# Grafana utils written in Go
 
-Some system monitoring endpoints to monitor from Grafana.
+The repo includes some system monitoring endpoints to monitor from Grafana and a reporting program to screenshot panels and send emails with it.
 
 - `/src/directory-files` : get the count of directory files in a dir
 - `/src/disk-space` : get the disk space on the machine
+- `/src/reporting` : send screenshots of panels to an email
 
 ## Usage
 
