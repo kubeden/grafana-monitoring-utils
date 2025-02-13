@@ -5,6 +5,7 @@ The repo includes some system monitoring endpoints to monitor from Grafana and a
 - `/src/directory-files` : get the count of directory files in a dir
 - `/src/disk-space` : get the disk space on the machine
 - `/src/reporting` : send screenshots of panels to an email
+- `/src/certs` : monitor certificates expiration of endpoints
 
 ## Usage
 
